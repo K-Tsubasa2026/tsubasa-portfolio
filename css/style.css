@@ -413,6 +413,27 @@ section h2 {
     justify-content: center;
 }
 
+.project-front.project-01 {
+    background-image: url('../portfolio-images/S__67108871.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.project-front.project-02 {
+    background-color: #d6e5fa;
+    background-image: url('../portfolio-images/amazon.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.project-front.project-03 {
+    background-color: #e7fbbe;
+}
+
+.project-front.project-04 {
+    background-color: #ffcbcb;
+}
+
 .project-front .info {
     display: none;
     flex-direction: column;
