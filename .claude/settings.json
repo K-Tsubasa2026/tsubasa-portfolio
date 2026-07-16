@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/rimu/Library/Mobile Documents/com~apple~CloudDocs/Desktop/project_dog/**)",
+      "Read(//Users/rimu/Library/Mobile Documents/com~apple~CloudDocs/Desktop/project_dog/js/**)",
+      "Read(//Users/rimu/Library/Mobile Documents/com~apple~CloudDocs/Desktop/project_dog/css/**)"
+    ]
+  }
+}

@@ -425,15 +425,19 @@ section h2 {
     background-size: cover;
     background-position: center;
 }
-/*
 .project-front.project-03 {
     background-color: #e7fbbe;
+    background-image: url('../portfolio-images/googleform.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .project-front.project-04 {
     background-color: #ffcbcb;
+    background-image: url('../portfolio-images/kadocomi.png');
+    background-size: cover;
+    background-position: center;
 }
-*/
 
 .project-front .info {
     display: none;
