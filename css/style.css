@@ -736,3 +736,49 @@ footer {
     font-size: 20px;
     line-height: 1;
 }
+
+
+/* =============================================
+   レスポンシブ対応（追記分・768px以下のみ上書き）
+   ============================================= */
+@media (max-width: 768px) {
+    .hero-inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-photo {
+        width: 100%;
+    }
+
+    .header-inner .container {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-cards {
+        flex-direction: column;
+    }
+
+    .back-to-top {
+        right: 20px;
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+    }
+}
